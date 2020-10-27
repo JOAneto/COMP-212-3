@@ -5,8 +5,60 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpfAssignment3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        FontSize="16"
+        FontFamily="Helvetica" 
+        Title="MainWindow" Height="680" Width="880">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="280" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Row="1" Grid.Column="1" Padding="5" Background="LightSlateGray">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Fruit Id" Width="auto" IsReadOnly="True" />
+                <DataGridTextColumn Header="Fruit Name" Width="auto" IsReadOnly="True" />
+                <DataGridTextColumn Header="Fruit Color" Width="auto" IsReadOnly="True" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid Grid.Row="1" Grid.Column="2" Padding="5" Background="Azure">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Planet Id" Width="auto" IsReadOnly="True" />
+                <DataGridTextColumn Header="Planet Name" Width="auto" IsReadOnly="True" />
+                <DataGridTextColumn Header="Planet Color" Width="auto" IsReadOnly="True" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid Grid.Row="1" Grid.Column="3" Padding="5" Background="Pink">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Fruit Name" Width="auto" IsReadOnly="True" />
+                <DataGridTextColumn Header="Planet Name" Width="auto" IsReadOnly="True" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Fruit" Padding="10" />
+        <ComboBox Grid.Row="3" Grid.Column="1" x:Name="fruitCB" />
+        <TextBlock Grid.Row="4" Grid.Column="1" Text="Planet" Padding="10" />
+        <ComboBox Grid.Row="5" Grid.Column="1" x:Name="planetCB" />
+        <Button Grid.Column="2" Grid.Row="6" Content="Clear" Width="220"/>
+        <Button Grid.Column="2" Grid.Row="8" Content="Delete Selected Row" Width="220" />
+        <Button Grid.Column="3" Grid.Row="3" Content="LINQ Project QS" Width="220" />
+        <Button Grid.Column="3" Grid.Row="5" Content="LINQ Filter QS" Width="220" />
+        <Button Grid.Column="3" Grid.Row="7" Content="LINQ Order ascending QS" Width="220" />
+        <Button Grid.Column="3" Grid.Row="9" Content="LINQ Inner Join QS" Width="220" />
     </Grid>
 </Window>

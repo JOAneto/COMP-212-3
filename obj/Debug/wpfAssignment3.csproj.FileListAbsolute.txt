@@ -1,0 +1,15 @@
+C:\Users\kachi\Source\Repos\COMP-212-32\bin\Debug\wpfAssignment3.exe.config
+C:\Users\kachi\Source\Repos\COMP-212-32\bin\Debug\wpfAssignment3.exe
+C:\Users\kachi\Source\Repos\COMP-212-32\bin\Debug\wpfAssignment3.pdb
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\wpfAssignment3.csprojAssemblyReference.cache
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\MainWindow.g.cs
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\App.g.cs
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\wpfAssignment3_MarkupCompile.cache
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\wpfAssignment3_MarkupCompile.lref
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\MainWindow.baml
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\wpfAssignment3.g.resources
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\wpfAssignment3.Properties.Resources.resources
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\wpfAssignment3.csproj.GenerateResource.cache
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\wpfAssignment3.csproj.CoreCompileInputs.cache
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\wpfAssignment3.exe
+C:\Users\kachi\Source\Repos\COMP-212-32\obj\Debug\wpfAssignment3.pdb
